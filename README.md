@@ -69,15 +69,15 @@ go version go1.18.4 windows/amd64
 3. Напишите программу, которая выводит числа от 1 до 100, которые делятся на 3. То есть `(3, 6, 9, …)`.
 
     ```
-package main
+	package main
+	
+	import "fmt"
 
-import "fmt"
-
-func main() {
-    for i := 3; i <= 100; i += 3 {
-	    fmt.Println(i)
-    }
-}
+	func main() {
+	    for i := 3; i <= 100; i += 3 {
+		    fmt.Println(i)
+	    }
+	}
     ```
 
 В виде решения ссылку на код или сам код. 
