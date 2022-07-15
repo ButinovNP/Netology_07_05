@@ -8,11 +8,12 @@
 2. Так же для тестирования кода можно использовать песочницу: [https://play.golang.org/](https://play.golang.org/).
 
 Установлено:
-    ```
+
+```
 C:\Windows\system32>go version
 go version go1.18.4 windows/amd64
+```
 
-    ```
 ## Задача 2. Знакомство с gotour.
 У Golang есть обучающая интерактивная консоль [https://tour.golang.org/](https://tour.golang.org/). 
 Рекомендуется изучить максимальное количество примеров. В консоли уже написан необходимый код, 
