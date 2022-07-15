@@ -80,7 +80,7 @@ func main() {
 		    min = val
 	    }
     }
-    fmt.Println("Наименьшее значени в массиве: ", min)
+    fmt.Println("Наименьший элемент списка: ", min)
 }
 ```    
     
