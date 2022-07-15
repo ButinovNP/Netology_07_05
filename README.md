@@ -43,6 +43,20 @@ go version go1.18.4 windows/amd64
         fmt.Println(output)    
     }
     ```
+    
+    Решение со статически заданным значением:
+'''
+    package main
+
+    import "fmt"
+
+    func main() {
+    	var in float64
+    	in = 3
+        output := in / 0.3048
+        fmt.Println(in, " метров = ", output, " футов")    
+    }
+'''
  
 1. Напишите программу, которая найдет наименьший элемент в любом заданном списке, например:
     ```
